@@ -30,7 +30,7 @@ AppRegistry,
 //
 //var React = require('react-native');
 //var SearchPage = require('./SearchPage');
-
+//tm_testcomment
 
 
 
@@ -92,17 +92,17 @@ class PropertyFinder extends Component {
     var Component = route.component;
     return ( <Component {...route.props} navigator={navigator} route={route} />);
   }
-    
+
   render() {
     return (
 //      <Navigator style={styles.container}
 //        initialRoute={{ title: 'Property Finder', component: HelloWorld }}/>
-        
-//       <Navigator initialRoute={{name: 'Property Finder', index: 0}} 
-//        renderScene={(route, navigator) => <SearchPage name={route.name} onForward={() => { var nextIndex = route.index + 1; 
-//        navigator.push({ name: 'Scene ' + nextIndex, index: nextIndex, }); }} onBack={() => { if (route.index > 0) { navigator.pop(); 
+
+//       <Navigator initialRoute={{name: 'Property Finder', index: 0}}
+//        renderScene={(route, navigator) => <SearchPage name={route.name} onForward={() => { var nextIndex = route.index + 1;
+//        navigator.push({ name: 'Scene ' + nextIndex, index: nextIndex, }); }} onBack={() => { if (route.index > 0) { navigator.pop();
 //       } }} /> } />
-        
+
     <Navigator
         initialRoute={{
           title: 'Property Finder',
@@ -190,8 +190,8 @@ const styles = StyleSheet.create({
   },
   navBarRightButton: {
     paddingRight: 10,
-    //backgroundColor: 'yellow'  
-    
+    //backgroundColor: 'yellow'
+
   },
   navBarButtonText: {
     color: cssVar('fbui-accent-blue'),
